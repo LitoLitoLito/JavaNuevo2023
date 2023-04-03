@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Ejercicio8 {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese un número entre 0 y 10");
@@ -20,7 +20,7 @@ public class Ejercicio8 {
     
         while (nota>10) {
             System.out.println("Ingrese un número entre 0 y 10");
-        nota = leer.nextInt();
+            nota = leer.nextInt();
         }
         System.out.println("Su número ingresado es --> "+nota);
         

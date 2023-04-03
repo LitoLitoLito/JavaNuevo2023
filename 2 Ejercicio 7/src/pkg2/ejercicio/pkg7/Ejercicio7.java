@@ -31,7 +31,7 @@ public class Ejercicio7 {
         
         Scanner leer = new Scanner(System.in);
         int tipoMotor;
-        System.out.println("Ingrese una opción");
+        System.out.println("Ingrese una opción entre 1 y 4");
         tipoMotor = leer.nextInt();
         switch (tipoMotor) {
             case 1:
